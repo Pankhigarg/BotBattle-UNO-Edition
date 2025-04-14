@@ -1,0 +1,982 @@
+Enter your hand as space-separated cards: R5 G7 WC YP
+Enter the top card: G2
+
+--- New Turn ---
+Top card: G2
+Bot's Hand: ['R5', 'G7', 'WC', 'YP']
+Bot chooses color R for wild: WR
+Bot plays: WR
+Chosen card: WR
+PS C:\Users\DELL\Desktop\coding dsa> cd "game"
+PS C:\Users\DELL\Desktop\coding dsa\game> python main.py
+Game Start — Top card: B2
+
+🔁 Turn: Player 0 — Hand(7): ['Y2', 'G4', 'R6', 'GR', 'Y8', 'WC', 'YS']
+Top Card: B2
+
+--- New Turn ---
+Top card: B2
+Bot's Hand: ['Y2', 'G4', 'R6', 'GR', 'Y8', 'WC', 'YS']
+Bot chooses color Y for wild: WY
+Bot plays: WY
+Player 0 plays: WY
+🎨 Wild played.
+
+🔁 Turn: Player 1 — Hand(7): ['R2', 'Y9', 'R4', 'R5', 'B5', 'Y1', 'Y5']
+Top Card: WY
+Player 1 plays: Y9
+
+🔁 Turn: Player 2 — Hand(7): ['B2', 'BR', 'R1', 'G8', 'WC', 'RP', 'YR']
+Top Card: Y9
+Player 2 plays: YR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 1 — Hand(6): ['R2', 'R4', 'R5', 'B5', 'Y1', 'Y5']
+Top Card: YR
+Player 1 plays: Y1
+
+🔁 Turn: Player 0 — Hand(6): ['Y2', 'G4', 'R6', 'GR', 'Y8', 'YS']
+Top Card: Y1
+
+--- New Turn ---
+Top card: Y1
+Bot's Hand: ['Y2', 'G4', 'R6', 'GR', 'Y8', 'YS']
+Bot plays: YS
+Player 0 plays: YS
+⏭️ Skip played — next player is skipped.
+
+🔁 Turn: Player 2 — Hand(6): ['B2', 'BR', 'R1', 'G8', 'WC', 'RP']
+Top Card: YS
+Player 2 plays: WR
+🎨 Wild played.
+
+🔁 Turn: Player 1 — Hand(5): ['R2', 'R4', 'R5', 'B5', 'Y5']
+Top Card: WR
+Player 1 plays: R2
+
+🔁 Turn: Player 0 — Hand(5): ['Y2', 'G4', 'R6', 'GR', 'Y8']
+Top Card: R2
+
+--- New Turn ---
+Top card: R2
+Bot's Hand: ['Y2', 'G4', 'R6', 'GR', 'Y8']
+Bot plays: R6
+Player 0 plays: R6
+
+🔁 Turn: Player 3 — Hand(7): ['B9', 'G5', 'B0', 'G3', 'R6', 'G7', 'PC']
+Top Card: R6
+Player 3 plays: R6
+
+🔁 Turn: Player 2 — Hand(5): ['B2', 'BR', 'R1', 'G8', 'RP']
+Top Card: R6
+Player 2 plays: R1
+
+🔁 Turn: Player 1 — Hand(4): ['R4', 'R5', 'B5', 'Y5']
+Top Card: R1
+Player 1 plays: R4
+
+🔁 Turn: Player 0 — Hand(4): ['Y2', 'G4', 'GR', 'Y8']
+Top Card: R4
+
+--- New Turn ---
+Top card: R4
+Bot's Hand: ['Y2', 'G4', 'GR', 'Y8']
+Bot plays: G4
+Player 0 plays: G4
+
+🔁 Turn: Player 3 — Hand(6): ['B9', 'G5', 'B0', 'G3', 'G7', 'PC']
+Top Card: G4
+Player 3 plays: G5
+
+🔁 Turn: Player 2 — Hand(4): ['B2', 'BR', 'G8', 'RP']
+Top Card: G5
+Player 2 plays: G8
+
+🔁 Turn: Player 1 — Hand(3): ['R5', 'B5', 'Y5']
+Top Card: G8
+Player 1 has no move, drawing...
+Player 1 draws RR
+
+🔁 Turn: Player 0 — Hand(3): ['Y2', 'GR', 'Y8']
+Top Card: G8
+
+--- New Turn ---
+Top card: G8
+Bot's Hand: ['Y2', 'GR', 'Y8']
+Bot plays: GR
+Player 0 plays: GR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 1 — Hand(4): ['R5', 'B5', 'Y5', 'RR']
+Top Card: GR
+Player 1 plays: RR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 0 — Hand(2): ['Y2', 'Y8']
+Top Card: RR
+
+--- New Turn ---
+Top card: RR
+Bot's Hand: ['Y2', 'Y8']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws B3
+
+🔁 Turn: Player 3 — Hand(5): ['B9', 'B0', 'G3', 'G7', 'PC']
+Top Card: RR
+Player 3 plays: PG
+🎯 Wild Draw 4 played — next player draws 4 cards and is skipped.
+
+🔁 Turn: Player 1 — Hand(3): ['R5', 'B5', 'Y5']
+Top Card: PG
+Player 1 has no move, drawing...
+Player 1 draws R1
+
+🔁 Turn: Player 0 — Hand(3): ['Y2', 'Y8', 'B3']
+Top Card: PG
+
+--- New Turn ---
+Top card: PG
+Bot's Hand: ['Y2', 'Y8', 'B3']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws RS
+
+🔁 Turn: Player 3 — Hand(4): ['B9', 'B0', 'G3', 'G7']
+Top Card: PG
+Player 3 plays: G3
+
+🔁 Turn: Player 2 — Hand(7): ['B2', 'BR', 'RP', 'B7', 'B8', 'G1', 'G9']
+Top Card: G3
+Player 2 plays: G1
+
+🔁 Turn: Player 1 — Hand(4): ['R5', 'B5', 'Y5', 'R1']
+Top Card: G1
+Player 1 plays: R1
+
+🔁 Turn: Player 0 — Hand(4): ['Y2', 'Y8', 'B3', 'RS']
+Top Card: R1
+
+--- New Turn ---
+Top card: R1
+Bot's Hand: ['Y2', 'Y8', 'B3', 'RS']
+Bot plays: RS
+Player 0 plays: RS
+⏭️ Skip played — next player is skipped.
+
+🔁 Turn: Player 2 — Hand(6): ['B2', 'BR', 'RP', 'B7', 'B8', 'G9']
+Top Card: RS
+Player 2 plays: RP
+🎯 Draw 2 played — next player draws 2 cards and is skipped.
+
+🔁 Turn: Player 0 — Hand(3): ['Y2', 'Y8', 'B3']
+Top Card: RP
+
+--- New Turn ---
+Top card: RP
+Bot's Hand: ['Y2', 'Y8', 'B3']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws G2
+
+🔁 Turn: Player 3 — Hand(3): ['B9', 'B0', 'G7']
+Top Card: RP
+Player 3 has no move, drawing...
+Player 3 draws PC
+
+🔁 Turn: Player 2 — Hand(5): ['B2', 'BR', 'B7', 'B8', 'G9']
+Top Card: RP
+Player 2 has no move, drawing...
+Player 2 draws G6
+
+🔁 Turn: Player 1 — Hand(5): ['R5', 'B5', 'Y5', 'BR', 'G8']
+Top Card: RP
+Player 1 plays: R5
+
+🔁 Turn: Player 0 — Hand(4): ['Y2', 'Y8', 'B3', 'G2']
+Top Card: R5
+
+--- New Turn ---
+Top card: R5
+Bot's Hand: ['Y2', 'Y8', 'B3', 'G2']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws Y3
+
+🔁 Turn: Player 3 — Hand(4): ['B9', 'B0', 'G7', 'PC']
+Top Card: R5
+Player 3 plays: PB
+🎯 Wild Draw 4 played — next player draws 4 cards and is skipped.
+
+🔁 Turn: Player 1 — Hand(4): ['B5', 'Y5', 'BR', 'G8']
+Top Card: PB
+Player 1 plays: B5
+
+🔁 Turn: Player 0 — Hand(5): ['Y2', 'Y8', 'B3', 'G2', 'Y3']
+Top Card: B5
+
+--- New Turn ---
+Top card: B5
+Bot's Hand: ['Y2', 'Y8', 'B3', 'G2', 'Y3']
+Bot plays: B3
+Player 0 plays: B3
+
+🔁 Turn: Player 3 — Hand(3): ['B9', 'B0', 'G7']
+Top Card: B3
+Player 3 plays: B9
+
+🔁 Turn: Player 2 — Hand(10): ['B2', 'BR', 'B7', 'B8', 'G9', 'G6', 'GR', 'B6', 'GS', 'G0']
+Top Card: B9
+Player 2 plays: B2
+
+🔁 Turn: Player 1 — Hand(3): ['Y5', 'BR', 'G8']
+Top Card: B2
+Player 1 plays: BR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 2 — Hand(9): ['BR', 'B7', 'B8', 'G9', 'G6', 'GR', 'B6', 'GS', 'G0']
+Top Card: BR
+Player 2 plays: BR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 1 — Hand(2): ['Y5', 'G8']
+Top Card: BR
+Player 1 has no move, drawing...
+Player 1 draws B8
+Player 1 plays drawn card: B8
+
+🔁 Turn: Player 0 — Hand(4): ['Y2', 'Y8', 'G2', 'Y3']
+Top Card: B8
+
+--- New Turn ---
+Top card: B8
+Bot's Hand: ['Y2', 'Y8', 'G2', 'Y3']
+Bot plays: Y8
+Player 0 plays: Y8
+
+🔁 Turn: Player 3 — Hand(2): ['B0', 'G7']
+Top Card: Y8
+Player 3 has no move, drawing...
+Player 3 draws G2
+
+🔁 Turn: Player 2 — Hand(8): ['B7', 'B8', 'G9', 'G6', 'GR', 'B6', 'GS', 'G0']
+Top Card: Y8
+Player 2 plays: B8
+
+🔁 Turn: Player 1 — Hand(2): ['Y5', 'G8']
+Top Card: B8
+Player 1 plays: G8
+⚠ Player 1 has UNO!
+
+🔁 Turn: Player 0 — Hand(3): ['Y2', 'G2', 'Y3']
+Top Card: G8
+
+--- New Turn ---
+Top card: G8
+Bot's Hand: ['Y2', 'G2', 'Y3']
+Bot plays: G2
+Player 0 plays: G2
+
+🔁 Turn: Player 3 — Hand(3): ['B0', 'G7', 'G2']
+Top Card: G2
+Player 3 plays: G7
+
+🔁 Turn: Player 2 — Hand(7): ['B7', 'G9', 'G6', 'GR', 'B6', 'GS', 'G0']
+Top Card: G7
+Player 2 plays: B7
+
+🔁 Turn: Player 1 — Hand(1): ['Y5']
+Top Card: B7
+Player 1 has no move, drawing...
+Player 1 draws G6
+
+🔁 Turn: Player 0 — Hand(2): ['Y2', 'Y3']
+Top Card: B7
+
+--- New Turn ---
+Top card: B7
+Bot's Hand: ['Y2', 'Y3']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws R0
+
+🔁 Turn: Player 3 — Hand(2): ['B0', 'G2']
+Top Card: B7
+Player 3 plays: B0
+⚠ Player 3 has UNO!
+
+🔁 Turn: Player 2 — Hand(6): ['G9', 'G6', 'GR', 'B6', 'GS', 'G0']
+Top Card: B0
+Player 2 plays: B6
+
+🔁 Turn: Player 1 — Hand(2): ['Y5', 'G6']
+Top Card: B6
+Player 1 plays: G6
+⚠ Player 1 has UNO!
+
+🔁 Turn: Player 0 — Hand(3): ['Y2', 'Y3', 'R0']
+Top Card: G6
+
+--- New Turn ---
+Top card: G6
+Bot's Hand: ['Y2', 'Y3', 'R0']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws G5
+Player 0 plays drawn card: G5
+
+🔁 Turn: Player 3 — Hand(1): ['G2']
+Top Card: G5
+Player 3 plays: G2
+🏆 Player 3 wins!
+🏁 Game Over — Player 3 wins!
+PS C:\Users\DELL\Desktop\coding dsa\game> python main.py
+Game Start — Top card: B5
+
+🔁 Turn: Player 0 — Hand(7): ['G4', 'WC', 'G5', 'B7', 'B1', 'YS', 'G2']
+Top Card: B5
+
+--- New Turn ---
+Top card: B5
+Bot's Hand: ['G4', 'WC', 'G5', 'B7', 'B1', 'YS', 'G2']
+Bot chooses color G for wild: WG
+Bot plays: WG
+Player 0 plays: WG
+🎨 Wild played.
+
+🔁 Turn: Player 1 — Hand(7): ['RS', 'B3', 'Y4', 'GR', 'B4', 'WC', 'YR']
+Top Card: WG
+Player 1 plays: GR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 0 — Hand(6): ['G4', 'G5', 'B7', 'B1', 'YS', 'G2']
+Top Card: GR
+
+--- New Turn ---
+Top card: GR
+Bot's Hand: ['G4', 'G5', 'B7', 'B1', 'YS', 'G2']
+Bot plays: G5
+Player 0 plays: G5
+
+🔁 Turn: Player 3 — Hand(7): ['WC', 'R2', 'R4', 'BS', 'GP', 'Y5', 'B0']
+Top Card: G5
+Player 3 plays: GP
+🎯 Draw 2 played — next player draws 2 cards and is skipped.
+
+🔁 Turn: Player 1 — Hand(6): ['RS', 'B3', 'Y4', 'B4', 'WC', 'YR']
+Top Card: GP
+Player 1 plays: WB
+🎨 Wild played.
+
+🔁 Turn: Player 0 — Hand(5): ['G4', 'B7', 'B1', 'YS', 'G2']
+Top Card: WB
+
+--- New Turn ---
+Top card: WB
+Bot's Hand: ['G4', 'B7', 'B1', 'YS', 'G2']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws R7
+
+🔁 Turn: Player 3 — Hand(6): ['WC', 'R2', 'R4', 'BS', 'Y5', 'B0']
+Top Card: WB
+Player 3 plays: WC
+Invalid move. Turn forfeited.
+
+🔁 Turn: Player 2 — Hand(9): ['G7', 'Y4', 'Y2', 'R3', 'Y1', 'R5', 'Y9', 'GS', 'G7']
+Top Card: WB
+Player 2 has no move, drawing...
+Player 2 draws Y7
+
+🔁 Turn: Player 1 — Hand(5): ['RS', 'B3', 'Y4', 'B4', 'YR']
+Top Card: WB
+Player 1 plays: B3
+
+🔁 Turn: Player 0 — Hand(6): ['G4', 'B7', 'B1', 'YS', 'G2', 'R7']
+Top Card: B3
+
+--- New Turn ---
+Top card: B3
+Bot's Hand: ['G4', 'B7', 'B1', 'YS', 'G2', 'R7']
+Bot plays: B7
+Player 0 plays: B7
+
+🔁 Turn: Player 3 — Hand(6): ['WC', 'R2', 'R4', 'BS', 'Y5', 'B0']
+Top Card: B7
+Player 3 plays: BS
+⏭️ Skip played — next player is skipped.
+
+🔁 Turn: Player 1 — Hand(4): ['RS', 'Y4', 'B4', 'YR']
+Top Card: BS
+Player 1 plays: RS
+⏭️ Skip played — next player is skipped.
+
+🔁 Turn: Player 3 — Hand(5): ['WC', 'R2', 'R4', 'Y5', 'B0']
+Top Card: RS
+Player 3 plays: R2
+
+🔁 Turn: Player 2 — Hand(10): ['G7', 'Y4', 'Y2', 'R3', 'Y1', 'R5', 'Y9', 'GS', 'G7', 'Y7']
+Top Card: R2
+Player 2 plays: Y2
+
+🔁 Turn: Player 1 — Hand(3): ['Y4', 'B4', 'YR']
+Top Card: Y2
+Player 1 plays: Y4
+
+🔁 Turn: Player 0 — Hand(5): ['G4', 'B1', 'YS', 'G2', 'R7']
+Top Card: Y4
+
+--- New Turn ---
+Top card: Y4
+Bot's Hand: ['G4', 'B1', 'YS', 'G2', 'R7']
+Bot plays: YS
+Player 0 plays: YS
+⏭️ Skip played — next player is skipped.
+
+🔁 Turn: Player 2 — Hand(9): ['G7', 'Y4', 'R3', 'Y1', 'R5', 'Y9', 'GS', 'G7', 'Y7']
+Top Card: YS
+Player 2 plays: Y4
+
+🔁 Turn: Player 1 — Hand(2): ['B4', 'YR']
+Top Card: Y4
+Player 1 plays: B4
+⚠ Player 1 has UNO!
+
+🔁 Turn: Player 0 — Hand(4): ['G4', 'B1', 'G2', 'R7']
+Top Card: B4
+
+--- New Turn ---
+Top card: B4
+Bot's Hand: ['G4', 'B1', 'G2', 'R7']
+Bot plays: G4
+Player 0 plays: G4
+
+🔁 Turn: Player 3 — Hand(4): ['WC', 'R4', 'Y5', 'B0']
+Top Card: G4
+Player 3 plays: R4
+
+🔁 Turn: Player 2 — Hand(8): ['G7', 'R3', 'Y1', 'R5', 'Y9', 'GS', 'G7', 'Y7']
+Top Card: R4
+Player 2 plays: R3
+
+🔁 Turn: Player 1 — Hand(1): ['YR']
+Top Card: R3
+Player 1 has no move, drawing...
+Player 1 draws Y9
+
+🔁 Turn: Player 0 — Hand(3): ['B1', 'G2', 'R7']
+Top Card: R3
+
+--- New Turn ---
+Top card: R3
+Bot's Hand: ['B1', 'G2', 'R7']
+Bot plays: R7
+Player 0 plays: R7
+
+🔁 Turn: Player 3 — Hand(3): ['WC', 'Y5', 'B0']
+Top Card: R7
+Player 3 plays: WB
+🎨 Wild played.
+
+🔁 Turn: Player 2 — Hand(7): ['G7', 'Y1', 'R5', 'Y9', 'GS', 'G7', 'Y7']
+Top Card: WB
+Player 2 has no move, drawing...
+Player 2 draws G1
+
+🔁 Turn: Player 1 — Hand(2): ['YR', 'Y9']
+Top Card: WB
+Player 1 has no move, drawing...
+Player 1 draws Y8
+
+🔁 Turn: Player 0 — Hand(2): ['B1', 'G2']
+Top Card: WB
+
+--- New Turn ---
+Top card: WB
+Bot's Hand: ['B1', 'G2']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws G9
+
+🔁 Turn: Player 3 — Hand(2): ['Y5', 'B0']
+Top Card: WB
+Player 3 plays: B0
+⚠ Player 3 has UNO!
+
+🔁 Turn: Player 2 — Hand(8): ['G7', 'Y1', 'R5', 'Y9', 'GS', 'G7', 'Y7', 'G1']
+Top Card: B0
+Player 2 has no move, drawing...
+Player 2 draws G3
+
+🔁 Turn: Player 1 — Hand(3): ['YR', 'Y9', 'Y8']
+Top Card: B0
+Player 1 has no move, drawing...
+Player 1 draws B4
+Player 1 plays drawn card: B4
+
+🔁 Turn: Player 0 — Hand(3): ['B1', 'G2', 'G9']
+Top Card: B4
+
+--- New Turn ---
+Top card: B4
+Bot's Hand: ['B1', 'G2', 'G9']
+Bot plays: B1
+Player 0 plays: B1
+
+🔁 Turn: Player 3 — Hand(1): ['Y5']
+Top Card: B1
+Player 3 has no move, drawing...
+Player 3 draws B9
+Player 3 plays drawn card: B9
+⚠ Player 3 has UNO!
+
+🔁 Turn: Player 2 — Hand(9): ['G7', 'Y1', 'R5', 'Y9', 'GS', 'G7', 'Y7', 'G1', 'G3']
+Top Card: B9
+Player 2 plays: Y9
+
+🔁 Turn: Player 1 — Hand(3): ['YR', 'Y9', 'Y8']
+Top Card: Y9
+Player 1 plays: YR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 2 — Hand(8): ['G7', 'Y1', 'R5', 'GS', 'G7', 'Y7', 'G1', 'G3']
+Top Card: YR
+Player 2 plays: Y1
+
+🔁 Turn: Player 3 — Hand(1): ['Y5']
+Top Card: Y1
+Player 3 plays: Y5
+🏆 Player 3 wins!
+🏁 Game Over — Player 3 wins!
+PS C:\Users\DELL\Desktop\coding dsa\game> python main.py
+Game Start — Top card: R6
+
+🔁 Turn: Player 0 — Hand(7): ['R1', 'G1', 'G2', 'B3', 'PC', 'Y3', 'Y4']
+Top Card: R6
+
+--- New Turn ---
+Top card: R6
+Bot's Hand: ['R1', 'G1', 'G2', 'B3', 'PC', 'Y3', 'Y4']
+Bot plays: R1
+Player 0 plays: R1
+
+🔁 Turn: Player 1 — Hand(7): ['R8', 'G2', 'PC', 'B8', 'Y3', 'RS', 'Y5']
+Top Card: R1
+Player 1 plays: R8
+
+🔁 Turn: Player 2 — Hand(7): ['PC', 'Y7', 'WC', 'B7', 'R5', 'B6', 'YR']
+Top Card: R8
+Player 2 plays: R5
+
+🔁 Turn: Player 3 — Hand(7): ['G4', 'GS', 'B1', 'G7', 'G3', 'R0', 'Y6']
+Top Card: R5
+Player 3 plays: R0
+
+🔁 Turn: Player 0 — Hand(6): ['G1', 'G2', 'B3', 'PC', 'Y3', 'Y4']
+Top Card: R0
+
+--- New Turn ---
+Top card: R0
+Bot's Hand: ['G1', 'G2', 'B3', 'PC', 'Y3', 'Y4']
+Bot chooses color G for wild: PG
+Bot plays: PG
+Player 0 plays: PG
+🎯 Wild Draw 4 played — next player draws 4 cards and is skipped.
+
+🔁 Turn: Player 2 — Hand(6): ['PC', 'Y7', 'WC', 'B7', 'B6', 'YR']
+Top Card: PG
+Player 2 plays: PC
+Invalid move. Turn forfeited.
+
+🔁 Turn: Player 3 — Hand(6): ['G4', 'GS', 'B1', 'G7', 'G3', 'Y6']
+Top Card: PG
+Player 3 plays: G4
+
+🔁 Turn: Player 0 — Hand(5): ['G1', 'G2', 'B3', 'Y3', 'Y4']
+Top Card: G4
+
+--- New Turn ---
+Top card: G4
+Bot's Hand: ['G1', 'G2', 'B3', 'Y3', 'Y4']
+Bot plays: Y4
+Player 0 plays: Y4
+
+🔁 Turn: Player 1 — Hand(10): ['G2', 'PC', 'B8', 'Y3', 'RS', 'Y5', 'BR', 'G0', 'R9', 'G7']
+Top Card: Y4
+Player 1 plays: Y3
+
+🔁 Turn: Player 2 — Hand(6): ['PC', 'Y7', 'WC', 'B7', 'B6', 'YR']
+Top Card: Y3
+Player 2 plays: Y7
+
+🔁 Turn: Player 3 — Hand(5): ['GS', 'B1', 'G7', 'G3', 'Y6']
+Top Card: Y7
+Player 3 plays: G7
+
+🔁 Turn: Player 0 — Hand(4): ['G1', 'G2', 'B3', 'Y3']
+Top Card: G7
+
+--- New Turn ---
+Top card: G7
+Bot's Hand: ['G1', 'G2', 'B3', 'Y3']
+Bot plays: G2
+Player 0 plays: G2
+
+🔁 Turn: Player 1 — Hand(9): ['G2', 'PC', 'B8', 'RS', 'Y5', 'BR', 'G0', 'R9', 'G7']
+Top Card: G2
+Player 1 plays: G2
+
+🔁 Turn: Player 2 — Hand(5): ['PC', 'WC', 'B7', 'B6', 'YR']
+Top Card: G2
+Player 2 plays: PB
+🎯 Wild Draw 4 played — next player draws 4 cards and is skipped.
+
+🔁 Turn: Player 0 — Hand(3): ['G1', 'B3', 'Y3']
+Top Card: PB
+
+--- New Turn ---
+Top card: PB
+Bot's Hand: ['G1', 'B3', 'Y3']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws Y2
+
+🔁 Turn: Player 1 — Hand(8): ['PC', 'B8', 'RS', 'Y5', 'BR', 'G0', 'R9', 'G7']
+Top Card: PB
+Player 1 plays: PC
+Invalid move. Turn forfeited.
+
+🔁 Turn: Player 2 — Hand(4): ['WC', 'B7', 'B6', 'YR']
+Top Card: PB
+Player 2 plays: B7
+
+🔁 Turn: Player 3 — Hand(8): ['GS', 'B1', 'G3', 'Y6', 'G6', 'G3', 'RR', 'RP']
+Top Card: B7
+Player 3 plays: B1
+
+🔁 Turn: Player 0 — Hand(4): ['G1', 'B3', 'Y3', 'Y2']
+Top Card: B1
+
+--- New Turn ---
+Top card: B1
+Bot's Hand: ['G1', 'B3', 'Y3', 'Y2']
+Bot plays: B3
+Player 0 plays: B3
+
+🔁 Turn: Player 1 — Hand(8): ['PC', 'B8', 'RS', 'Y5', 'BR', 'G0', 'R9', 'G7']
+Top Card: B3
+Player 1 plays: B8
+
+🔁 Turn: Player 2 — Hand(3): ['WC', 'B6', 'YR']
+Top Card: B8
+Player 2 plays: B6
+
+🔁 Turn: Player 3 — Hand(7): ['GS', 'G3', 'Y6', 'G6', 'G3', 'RR', 'RP']
+Top Card: B6
+Player 3 plays: Y6
+
+🔁 Turn: Player 0 — Hand(3): ['G1', 'Y3', 'Y2']
+Top Card: Y6
+
+--- New Turn ---
+Top card: Y6
+Bot's Hand: ['G1', 'Y3', 'Y2']
+Bot plays: Y3
+Player 0 plays: Y3
+
+🔁 Turn: Player 1 — Hand(7): ['PC', 'RS', 'Y5', 'BR', 'G0', 'R9', 'G7']
+Top Card: Y3
+Player 1 plays: Y5
+
+🔁 Turn: Player 2 — Hand(2): ['WC', 'YR']
+Top Card: Y5
+Player 2 plays: YR
+⚠ Player 2 has UNO!
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 1 — Hand(6): ['PC', 'RS', 'BR', 'G0', 'R9', 'G7']
+Top Card: YR
+Player 1 plays: BR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 2 — Hand(1): ['WC']
+Top Card: BR
+Player 2 plays: WR
+🎨 Wild played.
+🏆 Player 2 wins!
+🏁 Game Over — Player 2 wins!
+PS C:\Users\DELL\Desktop\coding dsa\game> python main.py
+Game Start — Top card: R6
+
+🔁 Turn: Player 0 — Hand(7): ['YS', 'R9', 'GS', 'GP', 'B6', 'B8', 'PC']
+Top Card: R6
+
+--- New Turn ---
+Top card: R6
+Bot's Hand: ['YS', 'R9', 'GS', 'GP', 'B6', 'B8', 'PC']
+Bot plays: R9
+Player 0 plays: R9
+
+🔁 Turn: Player 1 — Hand(7): ['Y3', 'B7', 'GR', 'R9', 'G7', 'R3', 'B9']
+Top Card: R9
+Player 1 plays: R9
+
+🔁 Turn: Player 2 — Hand(7): ['B3', 'B4', 'G7', 'BP', 'YP', 'B4', 'YR']
+Top Card: R9
+Player 2 has no move, drawing...
+Player 2 draws G1
+
+🔁 Turn: Player 3 — Hand(7): ['B3', 'G1', 'Y5', 'R1', 'G2', 'BP', 'G2']
+Top Card: R9
+Player 3 plays: R1
+
+🔁 Turn: Player 0 — Hand(6): ['YS', 'GS', 'GP', 'B6', 'B8', 'PC']
+Top Card: R1
+
+--- New Turn ---
+Top card: R1
+Bot's Hand: ['YS', 'GS', 'GP', 'B6', 'B8', 'PC']
+Bot chooses color G for wild: PG
+Bot plays: PG
+Player 0 plays: PG
+🎯 Wild Draw 4 played — next player draws 4 cards and is skipped.
+
+🔁 Turn: Player 2 — Hand(8): ['B3', 'B4', 'G7', 'BP', 'YP', 'B4', 'YR', 'G1']
+Top Card: PG
+Player 2 plays: G7
+
+🔁 Turn: Player 3 — Hand(6): ['B3', 'G1', 'Y5', 'G2', 'BP', 'G2']
+Top Card: G7
+Player 3 plays: G1
+
+🔁 Turn: Player 0 — Hand(5): ['YS', 'GS', 'GP', 'B6', 'B8']
+Top Card: G1
+
+--- New Turn ---
+Top card: G1
+Bot's Hand: ['YS', 'GS', 'GP', 'B6', 'B8']
+Bot plays: GS
+Player 0 plays: GS
+⏭️ Skip played — next player is skipped.
+
+🔁 Turn: Player 2 — Hand(7): ['B3', 'B4', 'BP', 'YP', 'B4', 'YR', 'G1']
+Top Card: GS
+Player 2 plays: G1
+
+🔁 Turn: Player 3 — Hand(5): ['B3', 'Y5', 'G2', 'BP', 'G2']
+Top Card: G1
+Player 3 plays: G2
+
+🔁 Turn: Player 0 — Hand(4): ['YS', 'GP', 'B6', 'B8']
+Top Card: G2
+
+--- New Turn ---
+Top card: G2
+Bot's Hand: ['YS', 'GP', 'B6', 'B8']
+Bot plays: GP
+Player 0 plays: GP
+🎯 Draw 2 played — next player draws 2 cards and is skipped.
+
+🔁 Turn: Player 2 — Hand(6): ['B3', 'B4', 'BP', 'YP', 'B4', 'YR']
+Top Card: GP
+Player 2 plays: BP
+🎯 Draw 2 played — next player draws 2 cards and is skipped.
+
+🔁 Turn: Player 0 — Hand(3): ['YS', 'B6', 'B8']
+Top Card: BP
+
+--- New Turn ---
+Top card: BP
+Bot's Hand: ['YS', 'B6', 'B8']
+Bot plays: B8
+Player 0 plays: B8
+
+🔁 Turn: Player 1 — Hand(12): ['Y3', 'B7', 'GR', 'G7', 'R3', 'B9', 'PC', 'G6', 'Y6', 'Y9', 'Y2', 'G9']
+Top Card: B8
+Player 1 plays: B7
+
+🔁 Turn: Player 2 — Hand(5): ['B3', 'B4', 'YP', 'B4', 'YR']
+Top Card: B7
+Player 2 plays: B3
+
+🔁 Turn: Player 3 — Hand(6): ['B3', 'Y5', 'BP', 'G2', 'PC', 'GR']
+Top Card: B3
+Player 3 plays: B3
+
+🔁 Turn: Player 0 — Hand(2): ['YS', 'B6']
+Top Card: B3
+
+--- New Turn ---
+Top card: B3
+Bot's Hand: ['YS', 'B6']
+Bot plays: B6
+Player 0 plays: B6
+⚠ Player 0 has UNO!
+
+🔁 Turn: Player 1 — Hand(11): ['Y3', 'GR', 'G7', 'R3', 'B9', 'PC', 'G6', 'Y6', 'Y9', 'Y2', 'G9']
+Top Card: B6
+Player 1 plays: B9
+
+🔁 Turn: Player 2 — Hand(4): ['B4', 'YP', 'B4', 'YR']
+Top Card: B9
+Player 2 plays: B4
+
+🔁 Turn: Player 3 — Hand(5): ['Y5', 'BP', 'G2', 'PC', 'GR']
+Top Card: B4
+Player 3 plays: BP
+🎯 Draw 2 played — next player draws 2 cards and is skipped.
+
+🔁 Turn: Player 1 — Hand(10): ['Y3', 'GR', 'G7', 'R3', 'PC', 'G6', 'Y6', 'Y9', 'Y2', 'G9']
+Top Card: BP
+Player 1 plays: PC
+Invalid move. Turn forfeited.
+
+🔁 Turn: Player 2 — Hand(3): ['YP', 'B4', 'YR']
+Top Card: BP
+Player 2 plays: YP
+🎯 Draw 2 played — next player draws 2 cards and is skipped.
+
+🔁 Turn: Player 0 — Hand(3): ['YS', 'BS', 'G3']
+Top Card: YP
+
+--- New Turn ---
+Top card: YP
+Bot's Hand: ['YS', 'BS', 'G3']
+Bot plays: YS
+Player 0 plays: YS
+⏭️ Skip played — next player is skipped.
+
+🔁 Turn: Player 2 — Hand(2): ['B4', 'YR']
+Top Card: YS
+Player 2 plays: YR
+⚠ Player 2 has UNO!
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 1 — Hand(10): ['Y3', 'GR', 'G7', 'R3', 'PC', 'G6', 'Y6', 'Y9', 'Y2', 'G9']
+Top Card: YR
+Player 1 plays: Y3
+
+🔁 Turn: Player 0 — Hand(2): ['BS', 'G3']
+Top Card: Y3
+
+--- New Turn ---
+Top card: Y3
+Bot's Hand: ['BS', 'G3']
+Bot plays: G3
+Player 0 plays: G3
+⚠ Player 0 has UNO!
+
+🔁 Turn: Player 3 — Hand(6): ['Y5', 'G2', 'PC', 'GR', 'Y1', 'WC']
+Top Card: G3
+Player 3 plays: G2
+
+🔁 Turn: Player 2 — Hand(1): ['B4']
+Top Card: G2
+Player 2 has no move, drawing...
+Player 2 draws G6
+Player 2 plays drawn card: G6
+⚠ Player 2 has UNO!
+
+🔁 Turn: Player 1 — Hand(9): ['GR', 'G7', 'R3', 'PC', 'G6', 'Y6', 'Y9', 'Y2', 'G9']
+Top Card: G6
+Player 1 plays: GR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 2 — Hand(1): ['B4']
+Top Card: GR
+Player 2 has no move, drawing...
+Player 2 draws YP
+
+🔁 Turn: Player 3 — Hand(5): ['Y5', 'PC', 'GR', 'Y1', 'WC']
+Top Card: GR
+Player 3 plays: GR
+🔁 Reverse played — turn direction reversed.
+
+🔁 Turn: Player 2 — Hand(2): ['B4', 'YP']
+Top Card: GR
+Player 2 has no move, drawing...
+Player 2 draws WC
+
+🔁 Turn: Player 1 — Hand(8): ['G7', 'R3', 'PC', 'G6', 'Y6', 'Y9', 'Y2', 'G9']
+Top Card: GR
+Player 1 plays: G7
+
+🔁 Turn: Player 0 — Hand(1): ['BS']
+Top Card: G7
+
+--- New Turn ---
+Top card: G7
+Bot's Hand: ['BS']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws R6
+
+🔁 Turn: Player 3 — Hand(4): ['Y5', 'PC', 'Y1', 'WC']
+Top Card: G7
+Player 3 plays: PY
+🎯 Wild Draw 4 played — next player draws 4 cards and is skipped.
+
+🔁 Turn: Player 1 — Hand(7): ['R3', 'PC', 'G6', 'Y6', 'Y9', 'Y2', 'G9']
+Top Card: PY
+Player 1 plays: PC
+Invalid move. Turn forfeited.
+
+🔁 Turn: Player 0 — Hand(2): ['BS', 'R6']
+Top Card: PY
+
+--- New Turn ---
+Top card: PY
+Bot's Hand: ['BS', 'R6']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws B5
+
+🔁 Turn: Player 3 — Hand(3): ['Y5', 'Y1', 'WC']
+Top Card: PY
+Player 3 plays: Y5
+
+🔁 Turn: Player 2 — Hand(7): ['B4', 'YP', 'WC', 'G4', 'R2', 'B0', 'G3']
+Top Card: Y5
+Player 2 plays: YP
+🎯 Draw 2 played — next player draws 2 cards and is skipped.
+
+🔁 Turn: Player 0 — Hand(3): ['BS', 'R6', 'B5']
+Top Card: YP
+
+--- New Turn ---
+Top card: YP
+Bot's Hand: ['BS', 'R6', 'B5']
+No playable cards. Bot will draw.
+Player 0 has no move, drawing...
+Player 0 draws BR
+
+🔁 Turn: Player 3 — Hand(2): ['Y1', 'WC']
+Top Card: YP
+Player 3 plays: Y1
+⚠ Player 3 has UNO!
+
+🔁 Turn: Player 2 — Hand(6): ['B4', 'WC', 'G4', 'R2', 'B0', 'G3']
+Top Card: Y1
+Player 2 plays: WG
+🎨 Wild played.
+
+🔁 Turn: Player 1 — Hand(9): ['R3', 'PC', 'G6', 'Y6', 'Y9', 'Y2', 'G9', 'Y8', 'Y4']
+Top Card: WG
+Player 1 plays: G6
+
+🔁 Turn: Player 0 — Hand(4): ['BS', 'R6', 'B5', 'BR']
+Top Card: G6
+
+--- New Turn ---
+Top card: G6
+Bot's Hand: ['BS', 'R6', 'B5', 'BR']
+Bot plays: R6
+Player 0 plays: R6
+
+🔁 Turn: Player 3 — Hand(1): ['WC']
+Top Card: R6
+Player 3 plays: WR
+🎨 Wild played.
+🏆 Player 3 wins!
+🏁 Game Over — Player 3 wins!
+

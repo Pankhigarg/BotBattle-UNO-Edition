@@ -1,0 +1,134 @@
+from base_bot import BaseBot
+from rules import Rules
+from collections import Counter
+
+class Player(BaseBot):
+    # def choose_card(self, top_card):
+    #     # This is intentionally left simple for competition participants to implement their strategy.
+    #     # They have access to self.hand and the top_card.
+    #     # Example:
+    #     #   top_card = "R5"
+    #     #   self.hand = ["B2", "RS", "WC", "Y4", ...]
+
+    #     # Participants should return a valid card from self.hand or None if no playable card.
+    #     return None
+    def __init__(self, player_id=0):
+        super().__init__(player_id)
+        self.color_counts = {}
+        self.opponent_likely_colors = {"R": 2, "G": 2, "B": 2, "Y": 2}
+        self.last_played_color = None
+        self.opponent_hand_sizes = {}
+
+    def choose_card(self, top_card):
+        print("\n--- New Turn ---")
+        print(f"Top card: {top_card}")
+        print(f"Bot's Hand: {self.hand}")
+
+        if not self.hand:
+            print("Hand is empty. Nothing to play.")
+            return None
+
+        if not isinstance(top_card, str) or len(top_card) < 2:
+            print("Invalid top card. Bot will draw.")
+            return None
+
+        self._update_color_counts()
+        playable_cards = [card for card in self.hand if self._is_valid_move(card, top_card)]
+
+        if not playable_cards:
+            print("No playable cards. Bot will draw.")
+            return None
+
+        # Separate Wild Draw Four and handle it last
+        p_cards = [card for card in playable_cards if card.startswith('P')]
+        non_p_cards = [card for card in playable_cards if not card.startswith('P')]
+
+        if non_p_cards:
+            chosen_card = self._select_best_card(non_p_cards)
+        else:
+            chosen_card = self._prepare_card_to_play(p_cards[0])
+
+        print(f"Bot plays: {chosen_card}")
+        return chosen_card
+
+    def _is_valid_move(self, card, top_card):
+        if card[0] in ('W', 'P'):
+            return True
+        top_color = top_card[0]
+        top_value = top_card[1:]
+        card_color = card[0]
+        card_value = card[1:]
+        return card_color == top_color or card_value == top_value
+
+    def _update_color_counts(self):
+        self.color_counts = Counter([card[0] for card in self.hand if card[0] in "RGBY"])
+
+    def _select_best_card(self, playable_cards):
+        # Try to avoid helping opponent with colors they may want
+        smart_cards = [card for card in playable_cards if card[0] not in self._opponent_most_likely_colors()]
+        if smart_cards:
+            playable_cards = smart_cards
+
+        if len(self.hand) == 1:
+            return self._prepare_card_to_play(playable_cards[0])
+
+        action_cards = [card for card in playable_cards if len(card) > 1 and card[1] in "SRP"]
+        if action_cards:
+            return self._prepare_card_to_play(action_cards[0])
+
+        number_cards = [card for card in playable_cards if len(card) > 1 and card[1].isdigit()]
+        if number_cards:
+            number_cards.sort(key=lambda x: int(x[1:]), reverse=True)
+            return self._prepare_card_to_play(number_cards[0])
+
+        wild_cards = [card for card in playable_cards if card[0] in 'W']
+        if wild_cards:
+            return self._prepare_card_to_play(wild_cards[0])
+
+        return self._prepare_card_to_play(playable_cards[0])
+
+    def _prepare_card_to_play(self, card):
+        if card[0] in 'WP':
+            best_color = self._best_color_choice()
+            self.last_played_color = best_color
+            selected_card = f"{card[0]}{best_color}"
+            print(f"Bot chooses color {best_color} for wild: {selected_card}")
+            return selected_card
+
+        self.last_played_color = card[0]
+        return card
+
+    def _best_color_choice(self):
+        if not self.color_counts:
+            return "R"
+        # Score colors based on our hand and opponent likelihood
+        def color_score(color):
+            own = self.color_counts.get(color, 0)
+            opp = self.opponent_likely_colors.get(color, 0)
+            return own + (2 - opp)  # Prefer opponent-unlikely colors
+
+        best_color = max("RGBY", key=color_score)
+        return best_color
+
+    def _opponent_most_likely_colors(self):
+        max_likelihood = max(self.opponent_likely_colors.values())
+        return [c for c, v in self.opponent_likely_colors.items() if v == max_likelihood]
+
+    def on_card_drawn(self, player_id, count):
+        if player_id != self.player_id and self.last_played_color:
+            self.opponent_likely_colors[self.last_played_color] = max(
+                0, self.opponent_likely_colors.get(self.last_played_color, 0) - 1
+            )
+
+
+
+# For local testing only
+if __name__ == "__main__":
+    bot = Player(player_id=0)
+
+    # Example input
+    bot.hand = input("Enter your hand as space-separated cards: ").strip().split()
+    top_card = input("Enter the top card: ").strip()
+
+    move = bot.choose_card(top_card)
+    print(f"Chosen card: {move}")
