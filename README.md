@@ -1,14 +1,10 @@
 # BotBattle: UNO Edition - README
-
-Welcome to **BotBattle: UNO Edition**, the ultimate UNO bot  challenge! In this the smartest UNO-playing bot that can beat other bots in a 4-player match.
+**BotBattle: UNO Edition**,the ultimate UNO bot battle! In this the smartest UNO-playing bot that can beat other bots in a 4-player match.
 
 This guide explains:
 - The **card notations** used in this project
 - The **rules and constraints** unique to this implementation
 - **Bot implementation guidelines**
-<!-- - How to **test your bot locally** -->
-
----
 
 ## 🃏 Card Notation
 Each card is represented as a **2-character string** (sometimes 3 characters for numbers >= 10).
@@ -51,30 +47,17 @@ class Player(BaseBot):
         # top_card: str => the current top card on the pile
         # return: str => a valid card from your hand to play, or None to draw
 ```
-
 ### Important Notes
 - bot can access its hand via `self.hand`
 - If  bot returns `None`, it draws one card. If that card is valid, it will be played automatically.
 -**set the color** when playing wilds or +4s.
   - E.g., instead of `WC`, return `WR` if you want red.
-
----
-
 ## 🧪 Testing Your Bot Locally
 Can test bot using the interactive mode in `playerBot.py`:
-
 ```bash
-$ python playerBot.py
-```
-
-It will ask for the top card and your hand, then call `choose_card()` and print your move.
-
----
----
-
+$ python playerBot.py.
 ## 📁 Folder includes
 
-```
 - main.py               # Game engine entry point
 - game_engine.py        # Core game logic
 - rules.py              # Handles rule validation and card effects
